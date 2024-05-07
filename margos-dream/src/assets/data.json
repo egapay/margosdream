@@ -1,0 +1,38 @@
+{
+    "navbarInfo":{
+        "brand":"MARGO'S DREAM",
+        "links":[
+            "Artwork",
+            "Contact",
+            "Merch",
+            "Donate"
+        ]
+    },
+    "heroInfo":{
+        "heroImage": "/margosDream.jpg",
+        "heroQuote": "A Voice For Those Who Cannot Speak And An Ear For Those Who Can",
+        "heroAuthor": "Margo Claster"
+    },
+    "mainContent1":{
+        "title": "Our Mission",
+        "contentLeft":{
+            "type":"img",
+            "data":"/mainContent1.jpg"
+        },
+        "contentRight": {
+            "type":"text",
+            "data":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sodales neque sodales ut etiam sit amet nisl purus. Quis vel eros donec ac odio tempor orci dapibus ultrices. Aliquam etiam erat velit scelerisque in. Ut tellus elementum sagittis vitae. amet nisl purus. Quis vel eros donec ac odio tempor orci dapibus ultrices. Aliquam etiam erat velit scelerisque in. Ut tellus elementum sagittis vitae."
+        }
+    },
+    "mainContent2":{
+        "title": "About Margo",
+        "contentLeft": {
+            "type":"text",
+            "data":"OTHER Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sodales neque sodales ut etiam sit amet nisl purus. Quis vel eros donec ac odio tempor orci dapibus ultrices. Aliquam etiam erat velit scelerisque in. Ut tellus elementum sagittis vitae. amet nisl purus. Quis vel eros donec ac odio tempor orci dapibus ultrices. Aliquam etiam erat velit scelerisque in. Ut tellus elementum sagittis vitae."
+        },
+        "contentRight":{
+            "type":"img",
+            "data":"/mainContent2.jpg"
+        }
+    }
+}

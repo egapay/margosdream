@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @font-face {
+    font-family: "manrope";
+    src: url('./fonts/Manrope-ExtraLight.ttf') format('truetype');
+    src: url('./fonts/Manrope-Light.ttf') format('truetype');
+    src: url('./fonts/Manrope-Regular.ttf') format('truetype');
+    src: url('./fonts/Manrope-Medium.ttf') format('truetype');
+    src: url('./fonts/Manrope-SemiBold.ttf') format('truetype');
+    src: url('./fonts/Manrope-Bold.ttf') format('truetype');
+    src: url('./fonts/Manrope-ExtraBold.ttf') format('truetype');
+}
+
+.manrope-extralight{
+    font-family: 'manrope', Arial, Helvetica, sans-serif;
+    font-weight: 200;
+}
+
+.manrope-light{
+    font-family: 'manrope', Arial, Helvetica, sans-serif;
+    font-weight: 300;
+}
+
+.manrope-regular{
+    font-family: 'manrope', Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+
+.manrope-medium{
+    font-family: 'manrope', Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+.manrope-semibold{
+    font-family: 'manrope', Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+.manrope-bold{
+    font-family: 'manrope', Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+.manrope-extrabold{
+    font-family: 'manrope', Arial, Helvetica, sans-serif;
+    font-weight: 800;
+} */
