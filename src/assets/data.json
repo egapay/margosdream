@@ -21,18 +21,24 @@
         },
         "contentRight": {
             "type":"text",
-            "data":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sodales neque sodales ut etiam sit amet nisl purus. Quis vel eros donec ac odio tempor orci dapibus ultrices. Aliquam etiam erat velit scelerisque in. Ut tellus elementum sagittis vitae. amet nisl purus. Quis vel eros donec ac odio tempor orci dapibus ultrices. Aliquam etiam erat velit scelerisque in. Ut tellus elementum sagittis vitae."
+            "data": "Our foundation was formed in October, 2020 by our family in memory of Margo Claster who we lost to a rare form of eye cancer called Ocular Melanoma. It's our mission to raise awareness about this form of cancer and to continue to engage in the philanthropic activities that were important to her. Our foundation provides Art Scholarships to graduating seniors at several schools in the Hudson Valley, supports local Humane Societies, makes donations to organizations for the developmentally challenged and Ocular Melanoma. There is SO much more to our story that we would love to share with you."
         }
     },
     "mainContent2":{
         "title": "About Margo",
         "contentLeft": {
             "type":"text",
-            "data":"OTHER Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sodales neque sodales ut etiam sit amet nisl purus. Quis vel eros donec ac odio tempor orci dapibus ultrices. Aliquam etiam erat velit scelerisque in. Ut tellus elementum sagittis vitae. amet nisl purus. Quis vel eros donec ac odio tempor orci dapibus ultrices. Aliquam etiam erat velit scelerisque in. Ut tellus elementum sagittis vitae."
+            "data":"Margo found her joy in helping people. This was showcased in her work as residential director at both The Epilepsy Foundation and Crystal Run Village for many years. She is an inspiration to us all and through our foundations efforts we hope to keep her giving spirit alive."
         },
         "contentRight":{
             "type":"img",
             "data":"/mainContent2.jpg"
+        }
+    },
+    "footer":{
+        "links":{
+            "instagram":"https://www.instagram.com/margosdreamfoundation/",
+            "facebook":"https://www.facebook.com/margosdreamfoundation/"
         }
     }
 }

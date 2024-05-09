@@ -12,15 +12,15 @@ const MainNavbar = (props) =>{
         <>
             <div style={navBar}>
                 <Navbar bg="bg-transparent" expand="md">
-                <Navbar.Brand href="home" className='pl-10 py-2 md:text-4xl text-2xl font-bold text-white'>{props.brand}</Navbar.Brand>
+                <Navbar.Brand href="home" className='pl-10 py-2 lg:text-4xl text-3xl font-bold text-white'>{props.brand}</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" className='m-6 bg-white'/>
                 <Navbar.Collapse id="basic-navbar-nav">
-                    <Nav className="ml-auto md:text-2xl text-xl md:pr-10 text-center">
+                    <Nav className="ml-auto md:text-xl lg:text-2xl text-2xl md:pr-10 text-center">
                         {props.links.map((link, index) => 
                             <Nav.Link 
                                 href={link} 
                                 key={link} 
-                                className={`text-white md:mx-1 hover:bg-accent2 active:bg-primary
+                                className={`text-white md:mx-1 active:bg-accent2 hover:bg-[#E3B313]
                                 ${index === props.links.length - 1 ? 'md:bg-black' : ''}`}
                             >   
                                 {link}

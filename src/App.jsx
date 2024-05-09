@@ -1,6 +1,8 @@
 import MainNavbar from "./components/MainNavbar"
 import HeroSection from "./components/HeroSection";
 import MainContent from "./components/MainContent";
+import SiteFooter from "./components/SiteFooter";
+
 import data from "./assets/data.json";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -26,6 +28,7 @@ const App = () => {
         contentLeft={data.mainContent2.contentLeft}
         contentRight={data.mainContent2.contentRight}
       />
+      <SiteFooter links={data.footer.links}/>
     </>
   )
 }
