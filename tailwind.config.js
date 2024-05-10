@@ -7,7 +7,7 @@ export default {
 
   theme: {
     colors:{
-      primary: "#E3B313",
+      primary1: "#E3B313",
       secondary: "#CFC2C9",
       accent1: "#DF4A69",
       accent2: "#57ACD3",
