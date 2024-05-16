@@ -9,13 +9,14 @@ const Home = () =>{
     return(
         <>
             <MainNavbar 
-            brand={data.navbarInfo.brand}
-            links={data.navbarInfo.links}
+                isMain={true}
+                brand={data.navbarInfo.brand}
+                links={data.navbarInfo.links}
             />
             <HeroSection 
                 quote={data.heroInfo.heroQuote}
                 img={data.heroInfo.heroImage}
-                />
+            />
             <MainContent 
                 title={data.mainContent1.title} 
                 contentLeft={data.mainContent1.contentLeft}

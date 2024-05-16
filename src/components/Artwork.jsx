@@ -6,10 +6,11 @@ const Artwork = () =>{
     return(
         <>
             <MainNavbar 
+                isMain={false}
                 brand={data.navbarInfo.brand}
                 links={data.navbarInfo.links}
             />
-            <br/><br/><br/><br/><h1>Hello!</h1><br/><br/><br/><br/>
+            
             <SiteFooter links={data.footer.links}/>
         </>
     )

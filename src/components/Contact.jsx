@@ -6,10 +6,11 @@ const Contact = () =>{
     return(
         <>
             <MainNavbar 
+                isMain={false}
                 brand={data.navbarInfo.brand}
                 links={data.navbarInfo.links}
             />
-            <br/><br/><br/><br/><h1>Hello!</h1><br/><br/><br/><br/>
+            {/* https://react.semantic-ui.com/collections/form/ */}
             <SiteFooter links={data.footer.links}/>
         </>
     )

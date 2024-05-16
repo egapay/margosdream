@@ -12,6 +12,8 @@ export default {
       accent1: "#DF4A69",
       accent2: "#57ACD3",
       transparent: 'transparent',
+      navbarClear: 'rgba(51, 51, 51, 0.6)',
+      navbarSolid: '#000000',
       black: '#000',
       white: '#fff',
     },
