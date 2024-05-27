@@ -9,7 +9,7 @@ const Home = () =>{
     return(
         <>
             <MainNavbar 
-                isMain={true}
+                // isMain={false}
                 brand={data.navbarInfo.brand}
                 links={data.navbarInfo.links}
             />

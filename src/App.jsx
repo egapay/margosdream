@@ -3,6 +3,8 @@ import Artwork from "./components/Artwork";
 import Contact from "./components/Contact";
 import Merch from "./components/Merch";
 import Donate from "./components/Donate";
+import TestComponent from "./components/TestComponent";
+import 'semantic-ui-css/semantic.min.css'
 
 import {
   BrowserRouter as Router,
@@ -42,6 +44,10 @@ const App = () => {
           exact
           path="/Donate"
           element={<Donate/>}/>
+        <Route
+          exact
+          path="/Test"
+          element={<TestComponent/>}/>
         <Route
           path="*"
           element={<Navigate to="/"/>}/>

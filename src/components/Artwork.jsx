@@ -6,7 +6,7 @@ const Artwork = () =>{
     return(
         <>
             <MainNavbar 
-                isMain={false}
+                // isMain={false}
                 brand={data.navbarInfo.brand}
                 links={data.navbarInfo.links}
             />

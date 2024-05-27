@@ -4,7 +4,16 @@ import { IconContext } from "react-icons/lib";
 
 const SiteFooter = ({links}) => {
     return(
-        <footer className="flex items-center p-4 bg-secondary text-neutral-content sm:justify-between sm:flex-row flex-col justify-center">
+        <footer className="flex 
+            items-center 
+            p-4 
+            bg-secondary 
+            text-neutral-content 
+            sm:justify-between 
+            sm:flex-row 
+            flex-col 
+            justify-center"
+        >
             <aside className="flex my-4">
                 <p>Margo's Dream © 2024</p>
             </aside> 
