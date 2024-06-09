@@ -24,16 +24,16 @@ const MainContent = (props) =>{
                     </> :
                     <>
                         <div className='shadow'>
-                        <div id="content-left" className='flex items-center lg:w-1/2 justify-center p-10'>
-                            {props.contentLeft.type === "img" ? 
-                            <img src={props.contentLeft.data} className='max-w-[100%] h-auto object-scale-down rounded'/> :
-                            props.contentRight.type === "img" && <img src={props.contentRight.data} className='max-w-[100%] h-auto object-scale-down rounded'/>}
-                        </div>
-                        <div id="content-right" className='flex items-center lg:w-1/2 justify-center p-10'>
-                            {props.contentRight.type === "text" ?
-                            <p className='xl:text-3xl text-lg w-3/4'>{props.contentRight.data}</p> :
-                            props.contentLeft.type == "text" && <p className='xl:text-3xl text-lg w-3/4'>{props.contentLeft.data}</p>}
-                        </div>
+                            <div id="content-left" className='flex items-center lg:w-1/2 justify-center p-10'>
+                                {props.contentLeft.type === "img" ? 
+                                <img src={props.contentLeft.data} className='max-w-[100%] h-auto object-scale-down rounded'/> :
+                                props.contentRight.type === "img" && <img src={props.contentRight.data} className='max-w-[100%] h-auto object-scale-down rounded'/>}
+                            </div>
+                            <div id="content-right" className='flex items-center lg:w-1/2 justify-center p-10'>
+                                {props.contentRight.type === "text" ?
+                                <p className='xl:text-3xl text-lg w-3/4'>{props.contentRight.data}</p> :
+                                props.contentLeft.type == "text" && <p className='xl:text-3xl text-lg w-3/4'>{props.contentLeft.data}</p>}
+                            </div>
                         </div>
                     </>
                 }

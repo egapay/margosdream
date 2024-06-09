@@ -2,7 +2,18 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import {Link} from 'react-router-dom'
 
+import { useState } from 'react';
+import Button from 'react-bootstrap/Button';
+import Modal from 'react-bootstrap/Modal';
+
 const MainNavbar = (props) =>{
+    const donateLink = "https://venmo.com/u/margos_dream";
+
+    const [show, setShow] = useState(false);
+
+    const handleClose = () => setShow(false);
+    const handleShow = () => setShow(true);
+
     return(
         <>
         {/* props.isMain ? 'bg-navbarClear w-full absolute' :  */}
@@ -14,8 +25,8 @@ const MainNavbar = (props) =>{
                     <Nav className="ml-auto md:text-xl lg:text-2xl text-2xl md:pr-10 text-center items-center">
                         {props.links.map((link, index) => 
                             <Link 
-                                to={"/" + link.toString().toLowerCase()} 
-                                target="_self"
+                                to={index !== props.links.length - 1 ? "/" + link.toString().toLowerCase() : donateLink}
+                                target={index !== props.links.length - 1 ? "_self" : "_blank"}
                                 key={link} 
                                 className={
                                     `text-white 

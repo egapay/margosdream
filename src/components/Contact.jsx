@@ -26,14 +26,18 @@ const Contact = () =>{
             {/* https://react.semantic-ui.com/collections/form/ */}
             {/* https://www.emailjs.com/ */}
 
-            <Form className='m-10'>
+            {/* <Form className='m-10'>
                 <FormGroup widths='equal'>
                 <FormInput fluid label='First name' placeholder='First name' />
                 <FormInput fluid label='Last name' placeholder='Last name' />
                 </FormGroup>
                 <FormTextArea label='About' placeholder='Tell us more about you...' />
                 <FormButton>Submit</FormButton>
-            </Form>
+            </Form> */}
+
+            <div>
+                
+            </div>
             
             <SiteFooter links={data.footer.links}/>
         </>

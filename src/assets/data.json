@@ -2,10 +2,8 @@
     "navbarInfo":{
         "brand":"MARGO'S DREAM",
         "links":[
-            "Test",
-            "Artwork",
+            "Home",
             "Contact",
-            "Merch",
             "Donate"
         ]
     },
@@ -39,7 +37,8 @@
     "footer":{
         "links":{
             "instagram":"https://www.instagram.com/margosdreamfoundation/",
-            "facebook":"https://www.facebook.com/margosdreamfoundation/"
+            "facebook":"https://www.facebook.com/margosdreamfoundation/",
+            "linktree":"https://linktr.ee/margosdreamfoundation"
         }
     }
 }
