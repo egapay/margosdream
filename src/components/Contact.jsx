@@ -35,8 +35,18 @@ const Contact = () =>{
                 <FormButton>Submit</FormButton>
             </Form> */}
 
-            <div>
-                
+            <div className='flex justify-evenly h-fit shadow m-10'>
+                <div className='m-10 content-center'>
+                    <h1 className='text-5xl'>Contact Us!</h1>
+                </div>
+                <div className='m-10 content-center'>
+                    <h1 className='text-3xl'>For all business inquiries:</h1>
+                    <div className='pt-11'>  
+                        <p>Email: </p>
+                        <p>Phone Number: </p>
+                    </div>
+                  
+                </div>
             </div>
             
             <SiteFooter links={data.footer.links}/>

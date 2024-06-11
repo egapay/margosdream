@@ -7,13 +7,17 @@ const SiteFooter = ({links}) => {
     return(
         <footer className="flex 
             items-center 
-            p-4 
+            px-4 
+            py-2
             bg-secondary 
             text-neutral-content 
             sm:justify-between 
             sm:flex-row 
             flex-col 
-            justify-center"
+            justify-center
+            absolute
+            w-full
+            bottom-0"
         >
             <aside className="flex my-4">
                 <p>Margo's Dream © 2024</p>
