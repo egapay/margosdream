@@ -7,8 +7,8 @@ const SiteFooter = ({links}) => {
     return(
         <footer className="flex 
             items-center 
-            px-4 
-            py-2
+            px-4
+            py-2 
             bg-secondary 
             text-neutral-content 
             sm:justify-between 
@@ -20,14 +20,14 @@ const SiteFooter = ({links}) => {
             bottom-0
             font-manrope"
         >
-            <aside className="flex my-4">
+            <aside className="flex my-3">
                 <p>Margo's Dream © 2024</p>
             </aside> 
             <nav className="flex">
-                <IconContext.Provider value={{color:"black", size: "3rem"}}>
-                    <a href={links["facebook"]} target="_blank" className="mx-2"><FaFacebook/></a>
-                    <a href={links["instagram"]} target="_blank" className="mx-2"><FaInstagram/></a>
-                    <a href={links["linktree"]} target="_blank" className="mx-2"><SiLinktree /></a>
+                <IconContext.Provider value={{color:"black"}}>
+                    <a href={links["facebook"]} target="_blank" className="mx-2"><FaFacebook size={"2.5rem"}/></a>
+                    <a href={links["instagram"]} target="_blank" className="mx-2"><FaInstagram size={"2.5rem"}/></a>
+                    <a href={links["linktree"]} target="_blank" className="mx-2"><SiLinktree size={"2.5rem"}/></a>
                 </IconContext.Provider>
             </nav>
         </footer>
