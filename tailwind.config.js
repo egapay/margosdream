@@ -6,6 +6,16 @@ export default {
   ],
 
   theme: {
+    fontFamily:{
+      manropeExtraLight: ["manropeExtraLight", "sans-serif"],
+      manropeLight: ["manropeLight", "sans-serif"],
+      manrope: ["manrope", "sans-serif"],
+      manropeSemiBold: ["manropeSemiBold", "sans-serif"],
+      manropeMedium: ["manropeMedium", "sans-serif"],
+      manropeBold: ["manropeBold", "sans-serif"],
+      manropeExtraBold: ["manropeExtraBold", "sans-serif"],
+      
+    },
     colors:{
       primary1: "#E3B313",
       secondary: "#CFC2C9",

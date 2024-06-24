@@ -17,7 +17,8 @@ const SiteFooter = ({links}) => {
             justify-center
             absolute
             w-full
-            bottom-0"
+            bottom-0
+            font-manrope"
         >
             <aside className="flex my-4">
                 <p>Margo's Dream © 2024</p>

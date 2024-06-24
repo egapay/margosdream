@@ -17,9 +17,9 @@ const MainNavbar = (props) =>{
     return(
         <>
         {/* props.isMain ? 'bg-navbarClear w-full absolute' :  */}
-            <div className={'bg-navbarSolid w-full static'}>
+            <div className={'bg-navbarSolid w-full static font-manrope'}>
                 <Navbar bg="bg-transparent" expand="md">
-                <Navbar.Brand href="home" className='pl-10 py-2 lg:text-4xl text-3xl font-bold text-white'>{props.brand}</Navbar.Brand>
+                <Navbar.Brand href="home" className='pl-10 py-2 lg:text-4xl text-3xl font-bold text-white font-manropeExtraBold'>{props.brand}</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" className='m-6 bg-white'/>
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ml-auto md:text-xl lg:text-2xl text-2xl md:pr-10 text-center items-center">
@@ -38,6 +38,7 @@ const MainNavbar = (props) =>{
                                     transition 
                                     duration-300 
                                     ease-in-out 
+                                    font-manropeLight
                                     ${index === props.links.length - 1 ? 'md:bg-accent2' : ''}`
                                 }
                             >   
