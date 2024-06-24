@@ -16,7 +16,7 @@ const Contact = () =>{
                 <div className='content-center mt-8'>
                     <h1 className='text-6xl lg:text-8xl animate-fadeIn1 font-manropeMedium'>Contact Us!</h1>
                 </div>
-                <div className='flex justify-evenly h-fit shadow m-4 w-full pt-[3rem] pb-[8rem] sm:pb-[3rem] lg:py-[10rem] text-center flex-col lg:flex-row'>
+                <div className='flex justify-evenly h-fit shadow m-4 w-full pt-[3rem] sm:pb-[3rem] lg:py-[10rem] text-center flex-col lg:flex-row'>
                     <div className='my-2 lg:mx-5 animate-fadeIn2'>
                         <h1 className='text-4xl xl:text-5xl font-manropeSemiBold'>Bill Youngman</h1>
                         <h2 className='text-xl xl:text-2xl'>President</h2>
