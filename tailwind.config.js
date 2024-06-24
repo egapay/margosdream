@@ -17,7 +17,21 @@ export default {
       black: '#000',
       white: '#fff',
     },
-    extend: {},
+    extend: {
+      animation: {
+        fadeIn1: 'fadeIn 1s ease-in',
+        fadeIn2: 'fadeIn 2.05s ease-in',
+        fadeIn3: 'fadeIn 2.1s ease-in',
+        fadeIn4: 'fadeIn 2.15s ease-in',
+        fadeIn5: 'fadeIn 2.2s ease-in',
+      },
+      keyframes: {
+        fadeIn: {
+          '0%': { opacity: '0' },
+          '100%': { opacity: '100' },
+        }
+      }
+    },
   },
   plugins: [
     require('daisyui'),
