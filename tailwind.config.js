@@ -26,6 +26,7 @@ export default {
       navbarSolid: '#000000',
       black: '#000',
       white: '#fff',
+      siteBackground: '#F8F8FF'
     },
     extend: {
       animation: {

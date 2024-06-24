@@ -12,7 +12,7 @@ const Contact = () =>{
                 brand={data.navbarInfo.brand}
                 links={data.navbarInfo.links}
             />
-            <div className='flex lg:h-[70%] h-fit w-full lg:absolute content-center justify-center flex-wrap font-manrope'>
+            <div className='flex lg:h-[70%] h-fit w-full lg:absolute content-center justify-center flex-wrap font-manrope bg-siteBackground'>
                 <div className='content-center mt-8'>
                     <h1 className='text-6xl lg:text-8xl animate-fadeIn1 font-manropeMedium'>Contact Us!</h1>
                 </div>

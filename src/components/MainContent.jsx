@@ -6,7 +6,7 @@ const MainContent = (props) =>{
 
     return(
         <>
-            <div className='py-[10vh] font-manrope'>
+            <div className='py-[10vh] font-manrope bg-siteBackground'>
                 <h1 className='text-center md:text-5xl text-4xl font-manropeMedium'>{props.title}</h1>
                 <div className="lg:flex justify-center m-10">
                 {isDesktop ? 
